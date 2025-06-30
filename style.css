@@ -13,7 +13,7 @@
 .whole{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 3fr;
 }
 
 .sidebar{
@@ -67,11 +67,99 @@ svg{
     background-color: white;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar{
+    width: 80%;
+    height: 35px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(228, 228, 228);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.notif{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: end;
+}
+
+.pfp{
+    fill: rgb(255, 196, 0);
+    width: 65px;
+}
+
+.name{
+   font-weight: 800;
+   font-size: 23px;
+}
+
+.pfp-main{
+    fill: rgb(255, 196, 0) ;
+    width: 100px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+.hi{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.user-name{
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.intro{
+    margin-left: 17px
+}
+
+.butt{
+    font-size: 22px;
+    border-radius: 25px;
+    height: 5vh;
+    width: 7vw;
+    border-style: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    gap: 23px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: rgb(39, 39, 201);
+}
+
+button:hover, svg:hover{
+cursor: pointer;
 }
 
 .main{
-    background-color: gray;
+    background-color: rgb(221, 221, 221);
     display: flex;
 }
 
